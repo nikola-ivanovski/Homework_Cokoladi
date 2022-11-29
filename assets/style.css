@@ -1,0 +1,196 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+body,
+html {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cokoladi-h {
+  color: rgb(29, 110, 29);
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 0 0 200px;
+  padding: 0;
+}
+
+.co {
+  color: rgb(151, 13, 13);
+}
+
+.ko {
+  color: rgb(45, 123, 224);
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 10px;
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
+  transition: 0.5s;
+}
+.box:hover input {
+  width: 200px;
+  border-radius: 10px;
+  border-bottom: 1px solid #000000;
+}
+.box i {
+  position: absolute;
+  top: 50%;
+  right: 75px;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #fff;
+  transition: 0.2s;
+  text-shadow: 2px 2px 4px #000000;
+}
+.box:hover i {
+  opacity: 0;
+  /* z-index: -1; */
+}
+
+.inputs {
+  display: flex;
+}
+
+.multiLang select {
+  width: 60px;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.cokoladiBar {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cokoladiBar > .item:nth-child(1) {
+  background: red;
+}
+
+.cokoladiBar > .item:nth-child(2) {
+  background-color: aquamarine;
+}
+
+.cokoladiBar > .item:nth-child(3) {
+  background-color: rgb(74, 180, 74);
+}
+
+.item img {
+  width: 250px;
+}
+
+.item .zc {
+  width: 100px;
+}
+
+.item button {
+  border: 0;
+  outline: 0;
+  width: 200px;
+  padding: 15px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 8px #000000;
+}
+
+.btn-dorina {
+  background: rgb(204, 26, 26);
+}
+
+.btn-coksa {
+  background: rgb(45, 123, 224);
+}
+
+.btn-zc {
+  background: rgb(32, 100, 32);
+  margin-top: 50px;
+  line-height: 1;
+}
+
+.bombonieri {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.bombonieri h1 {
+  font-size: 60px;
+  color: rgb(0, 132, 255);
+}
+
+.bom {
+  color: rgb(80, 23, 23);
+}
+
+.boni {
+  color: rgb(167, 7, 73);
+}
+
+.bombonieriBar {
+  display: flex;
+  justify-content: center;
+}
+
+.bombonieriBar > .item:nth-child(1) {
+  background-color: brown;
+}
+
+.bombonieriBar > .item:nth-child(2) {
+  background-color: palevioletred;
+}
+
+.bombonieriBar > .item:nth-child(3) {
+  background-color: rgb(26, 106, 224);
+}
+
+.btn-bajadera {
+  background-color: brown;
+}
+
+.btn-griotte {
+  background-color: palevioletred;
+}
+
+.btn-fontana {
+  background-color: rgb(40, 113, 209);
+}
